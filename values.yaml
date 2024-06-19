@@ -1,0 +1,15 @@
+frontend:
+  image: registry.cn-hangzhou.aliyuncs.com/xglimage/frontend
+  tag: 7d133ec
+  autoscaling:
+    averageUtilization: 80
+backend:
+  image: registry.cn-hangzhou.aliyuncs.com/xglimage/backend
+  tag: 7d133ec
+  autoscaling:
+    averageUtilization: 80
+database:
+  enabled: true
+  uri: pg-service
+  username: postgres
+  password: postgres
