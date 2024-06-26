@@ -1,0 +1,14 @@
+helm:
+  parameters:
+  - name: frontend.image
+    value: registry.cn-hangzhou.aliyuncs.com/xglimage/frontend
+    forcestring: true
+  - name: frontend.tag
+    value: main-cd4c1be
+    forcestring: true
+  - name: backend.image
+    value: registry.cn-hangzhou.aliyuncs.com/xglimage/backend
+    forcestring: true
+  - name: backend.tag
+    value: main-cd4c1be
+    forcestring: true
